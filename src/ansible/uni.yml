@@ -1,0 +1,10 @@
+- name: Rust Language
+  hosts: localhost
+  vars:
+    debug: false
+    GCC_linker: true
+  roles:
+    - UniInc.Rust
+    - UniInc.OpenCV-Rust
+    - UniInc.IntelliJ-IDEA-Ultimate
+    - UniInc.JetBrains-plugin-Rust
